@@ -15,6 +15,7 @@
             android:layout_weight="2"
             android:orientation="vertical">
             //question 1
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -28,7 +29,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/cellula1" />
+                        android:src="@drawable/cell1" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -39,8 +40,7 @@
                         android:text="1. Which macromolecule is responsible for the trasmission of genetic charachters?"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="24dp"
-                        android:textStyle="bold" />
+                        android:textSize="24dp" />
                 </RelativeLayout>
 
                 <LinearLayout
@@ -75,6 +75,7 @@
                 </LinearLayout>
             </LinearLayout>
             //question 2
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -89,7 +90,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/cellula1" />
+                        android:src="@drawable/cell2" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -100,8 +101,7 @@
                         android:text="2. Which among them is not a macromolecule?"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="24dp"
-                        android:textStyle="bold" />
+                        android:textSize="24dp" />
                 </RelativeLayout>
 
                 <RadioGroup
@@ -134,6 +134,7 @@
             </LinearLayout>
 
             //question 3
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -148,7 +149,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/cellula1" />
+                        android:src="@drawable/cell3" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -159,8 +160,7 @@
                         android:text="3. Which is the process giving rise to the zigote?"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="24dp"
-                        android:textStyle="bold" />
+                        android:textSize="24dp" />
                 </RelativeLayout>
 
                 <RadioGroup
@@ -193,6 +193,7 @@
             </LinearLayout>
 
             //question 4
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -207,7 +208,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/cellula1" />
+                        android:src="@drawable/cell4" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -218,8 +219,7 @@
                         android:text="4. Which organelles are responbible for photosynthesis?"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="24dp"
-                        android:textStyle="bold" />
+                        android:textSize="24dp" />
                 </RelativeLayout>
 
                 <RadioGroup
@@ -227,7 +227,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:orientation="horizontal" >
+                    android:orientation="horizontal">
 
                     <RadioButton
                         android:layout_width="wrap_content"
@@ -254,6 +254,7 @@
             </LinearLayout>
 
             //question 5
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -268,7 +269,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/cellula1" />
+                        android:src="@drawable/cell5" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -279,8 +280,7 @@
                         android:text="5. Aminoacids are the basic unit for?"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="24dp"
-                        android:textStyle="bold" />
+                        android:textSize="24dp" />
                 </RelativeLayout>
 
                 <LinearLayout
@@ -316,6 +316,7 @@
             </LinearLayout>
 
             //question 6
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -330,7 +331,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/cellula1" />
+                        android:src="@drawable/cell6" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -341,8 +342,7 @@
                         android:text="6. Nucleotides are the bricks for?"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="24dp"
-                        android:textStyle="bold" />
+                        android:textSize="24dp" />
                 </RelativeLayout>
 
                 <LinearLayout
@@ -378,6 +378,7 @@
             </LinearLayout>
 
             //question 7
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -392,7 +393,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/cellula1" />
+                        android:src="@drawable/cell7" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -403,8 +404,7 @@
                         android:text="7. Which structure is responsible for the shape of a plant cell?"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="24dp"
-                        android:textStyle="bold" />
+                        android:textSize="24dp" />
                 </RelativeLayout>
 
                 <RadioGroup
@@ -440,6 +440,7 @@
         </LinearLayout>
 
         //question 8
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -454,7 +455,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cellula1" />
+                    android:src="@drawable/cell8" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -465,8 +466,7 @@
                     android:text="8. What's the name for the programmed cell death?"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
-                    android:textSize="24dp"
-                    android:textStyle="bold" />
+                    android:textSize="24dp" />
 
             </RelativeLayout>
 
@@ -480,14 +480,15 @@
                     android:id="@+id/quest8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
-                    android:hint="Single word answer:"/>
+                    android:hint="Single word answer:"
+                    android:paddingLeft="8dp" />
 
             </LinearLayout>
 
         </LinearLayout>
 
         //question 9
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -502,7 +503,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cellula1" />
+                    android:src="@drawable/cell9" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -513,8 +514,7 @@
                     android:text="9. In which cellular compartment are produced the proteins?"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
-                    android:textSize="24dp"
-                    android:textStyle="bold" />
+                    android:textSize="24dp" />
 
             </RelativeLayout>
 
@@ -528,14 +528,15 @@
                     android:id="@+id/quest9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
-                    android:hint="Single word answer:" />
+                    android:hint="Single word answer:"
+                    android:paddingLeft="8dp" />
 
             </LinearLayout>
 
         </LinearLayout>
 
         //question 10
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -550,7 +551,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cellula1" />
+                    android:src="@drawable/cell10" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -561,8 +562,7 @@
                     android:text="10. Which, among them, are cellular organelles"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
-                    android:textSize="24dp"
-                    android:textStyle="bold" />
+                    android:textSize="24dp" />
 
             </RelativeLayout>
 
@@ -614,7 +614,8 @@
             android:shadowRadius="5"
             android:text="Submit"
             android:textColor="#000000"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:onClick="submitAnswer"/>
 
     </LinearLayout>
 
