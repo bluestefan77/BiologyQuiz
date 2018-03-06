@@ -13,7 +13,7 @@ import android.widget.RadioGroup;
 
 public class MainActivity extends AppCompatActivity {
 
-    int correctAnswers = 0;
+    int correctAnswers; //In Java, global variables will automatically default to zero
     int second_answer = 3; //Mitocondria
     int third_answer = 5; //Fecondation
     int fourth_answer = 7; //Cloroplast
@@ -120,13 +120,13 @@ public class MainActivity extends AppCompatActivity {
     //8th question: edit text type
     private boolean question8() {
         EditText editText = findViewById(R.id.quest8);
-        return editText.getText().toString().equalsIgnoreCase(eighth_answer);
+        return editText.getText().toString().trim().equalsIgnoreCase(eighth_answer);
     }
 
     //9th question: edit text type
     private boolean question9() {
         EditText editText = findViewById(R.id.quest9);
-        return editText.getText().toString().equalsIgnoreCase(ninth_answer);
+        return editText.getText().toString().trim().equalsIgnoreCase(ninth_answer);
     }
 
     public void submitAnswer(View view) {

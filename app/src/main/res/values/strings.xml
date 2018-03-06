@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Biology Quiz</string>
+    <string name="question_one_text">1. Which macromolecule is responsible for the trasmission of genetic charachters?</string>
+    <string name="question_two_text">"2. Which among them is not a macromolecule?"</string>
+    <string name="question_three_text">"3. Which is the process giving rise to the zigote?"</string>
+    <string name="question_four_text">"4. Which organelles are responbible for photosynthesis?"</string>
+    <string name="question_five_text">"5. Aminoacids are the basic unit for?"</string>
+    <string name="question_six_text">"6. Nucleotides are the bricks for?"</string>
+    <string name="question_seven_text">"7. Which structure is responsible for the shape of a plant cell?"</string>
+    <string name="question_eight_text">"8. What's the name for the programmed cell death?"</string>
+    <string name="question_nine_text">"9. In which cellular compartment are produced the proteins?"</string>
+    <string name="question_ten_text">"10. Which, among them, are cellular organelles"</string>
 </resources>
