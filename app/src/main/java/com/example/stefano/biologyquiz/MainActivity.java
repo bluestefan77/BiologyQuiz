@@ -14,10 +14,10 @@ import android.widget.RadioGroup;
 public class MainActivity extends AppCompatActivity {
 
     int correctAnswers = 0;
-    int second_answer = R.id.quest2_radio;
-    int third_answer = R.id.quest3_radio;
-    int fourth_answer = R.id.quest4_radio;
-    int seventh_answer = R.id.quest7_radio;
+    int second_answer = 3; //Mitocondria
+    int third_answer = 5; //Fecondation
+    int fourth_answer = 7; //Cloroplast
+    int seventh_answer = 12; //Cell Wall
     String eighth_answer = "Apoptosis";
     String ninth_answer = "Cytoplasm";
 
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         CheckBox check2 = findViewById(R.id.quest10_second);
         CheckBox check3 = findViewById(R.id.quest10_third);
 
-        if (check1.isChecked() && check2.isChecked() && !check3.isChecked()) {
+        if (check1.isChecked() && check2.isChecked() && check3.isChecked()) {
             return true;
         }
         return false;
