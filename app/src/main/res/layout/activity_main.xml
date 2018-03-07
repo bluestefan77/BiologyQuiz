@@ -29,7 +29,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/cell1" />
+                        android:src="@drawable/cell1"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
                         android:padding="8dp"
                         android:text="@string/question_one_text"
                         android:textAlignment="center"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/colorQuestions"
                         android:textSize="24sp" />
                 </RelativeLayout>
 
@@ -100,7 +100,7 @@
                         android:padding="8dp"
                         android:text="@string/question_two_text"
                         android:textAlignment="center"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/colorQuestions"
                         android:textSize="24sp" />
                 </RelativeLayout>
 
@@ -158,7 +158,7 @@
                         android:padding="8dp"
                         android:text="@string/question_three_text"
                         android:textAlignment="center"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/colorQuestions"
                         android:textSize="24sp" />
                 </RelativeLayout>
 
@@ -216,7 +216,7 @@
                         android:padding="8dp"
                         android:text="@string/question_four_text"
                         android:textAlignment="center"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/colorQuestions"
                         android:textSize="24sp" />
                 </RelativeLayout>
 
@@ -276,7 +276,7 @@
                         android:padding="8dp"
                         android:text="@string/question_five_text"
                         android:textAlignment="center"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/colorQuestions"
                         android:textSize="24sp" />
                 </RelativeLayout>
 
@@ -337,7 +337,7 @@
                         android:padding="8dp"
                         android:text="@string/question_six_text"
                         android:textAlignment="center"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/colorQuestions"
                         android:textSize="24sp" />
                 </RelativeLayout>
 
@@ -398,7 +398,7 @@
                         android:padding="8dp"
                         android:text="@string/question_seven_text"
                         android:textAlignment="center"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/colorQuestions"
                         android:textSize="24sp" />
                 </RelativeLayout>
 
@@ -459,7 +459,7 @@
                     android:padding="8dp"
                     android:text="@string/question_eight_text"
                     android:textAlignment="center"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@color/colorQuestions"
                     android:textSize="24sp" />
 
             </RelativeLayout>
@@ -475,6 +475,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Single word answer:"
+                    android:inputType="text"
                     android:paddingLeft="8dp" />
 
             </LinearLayout>
@@ -506,7 +507,7 @@
                     android:padding="8dp"
                     android:text="@string/question_nine_text"
                     android:textAlignment="center"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@color/colorQuestions"
                     android:textSize="24sp" />
 
             </RelativeLayout>
@@ -522,6 +523,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Single word answer:"
+                    android:inputType="text"
                     android:paddingLeft="8dp" />
 
             </LinearLayout>
@@ -553,7 +555,7 @@
                     android:padding="8dp"
                     android:text="@string/question_ten_text"
                     android:textAlignment="center"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@color/colorQuestions"
                     android:textSize="24sp" />
 
             </RelativeLayout>
@@ -600,12 +602,12 @@
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/buttonshape"
-            android:shadowColor="#A8A8A8"
+            android:shadowColor="@color/colorPrimaryDark"
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="5"
             android:text="Submit"
-            android:textColor="#000000"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="16sp"
             android:onClick="submitAnswer"/>
 

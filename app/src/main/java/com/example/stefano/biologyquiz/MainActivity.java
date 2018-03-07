@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         CheckBox check2 = findViewById(R.id.quest1_second);
         CheckBox check3 = findViewById(R.id.quest1_third);
 
-        if (check1.isChecked() && !check2.isChecked() && !check3.isChecked()) {
+        if (check1.isChecked() && check2.isChecked() && !check3.isChecked()) {
             return true;
         }
         return false;
